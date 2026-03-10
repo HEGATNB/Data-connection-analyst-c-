@@ -42,3 +42,33 @@
 - **System.Net** - работа с DNS и Ping
 
 ## Структура проекта
+
+PKS_PROJ2/
+├── NetworkAnalyzer/ # Основной проект<br>
+│ ├── App.xaml # Конфигурация приложения<br>
+│ ├── MainWindow.xaml # Главное окно (разметка)<br>
+│ ├── MainWindow.xaml.cs # Логика главного окна<br>
+│ ├── Models/ # Модели данных<br>
+│ │ ├── NetworkInterfaceInfo.cs<br>
+│ │ └── UrlAnalysisResult.cs
+│ ├── Services/ # Сервисы для работы с данными<br>
+│ │ ├── NetworkService.cs<br>
+│ │ └── UrlAnalysisService.cs<br>
+│ └── NetworkAnalyzer.csproj # Файл проекта<br>
+├── run.bat # Скрипт для запуска<br>
+└── README.md # Информация по репозиторию<br>
+
+## Инструкция по установке и запуску
+
+### Предварительные требования
+
+1. **.NET 8.0 SDK** 
+2. **Windows 7 или выше** (для работы WPF-приложений)
+3. **Права администратора** (не обязательны, но могут потребоваться для полного доступа к сетевым интерфейсам)
+
+### Проверка установки .NET
+
+Откройте командную строку и выполните:
+```bash
+dotnet --version
+```
