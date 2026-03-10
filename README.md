@@ -50,7 +50,7 @@ PKS_PROJ2/<br>
 │ ├── MainWindow.xaml.cs # Логика главного окна<br>
 │ ├── Models/ # Модели данных<br>
 │ │ ├── NetworkInterfaceInfo.cs<br>
-│ │ └── UrlAnalysisResult.cs
+│ │ └── UrlAnalysisResult.cs<br>
 │ ├── Services/ # Сервисы для работы с данными<br>
 │ │ ├── NetworkService.cs<br>
 │ │ └── UrlAnalysisService.cs<br>
