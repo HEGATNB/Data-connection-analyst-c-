@@ -43,7 +43,7 @@
 
 ## Структура проекта
 
-PKS_PROJ2/
+PKS_PROJ2/<br>
 ├── NetworkAnalyzer/ # Основной проект<br>
 │ ├── App.xaml # Конфигурация приложения<br>
 │ ├── MainWindow.xaml # Главное окно (разметка)<br>
